@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  />
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--لاستدعاء عناصر fb -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Mohammad Ashraf</title>
+</head>
+
+<body>
+
+
+    <header>
+        <a href="#" class="logo">CV</a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#Skills">Skills</a>
+            <a href="#contact">Contact</a>
+            
+          </nav>
+    </header>
+
+
+    <section class="main">
+        <div>
+            <h2>Mohammad Ashraf<br><span>Developer</span></h2>
+            <a href="#Skills" class="btn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                View my skills
+            </a> <div class="information">
+                <p> Hello, My name is Mohammad Ashraf Mahmoud Thaher I am 22 years old and I study at the Hashemite
+                    University, Cyber security CYS </p>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <!-- Skills Section -->
+    <section class="skills-section" id="Skills">
+        <h2 class="title">Skills</h2>
+        <div class="container">
+            <div class="box">
+                <h2 class="name" id="html">HTML</h2>
+                <a href="#html" class="buy modal-btn" id="html-modal">Learn more</a>
+                <div class="circle"></div>
+                <img src="html.png" alt="HTML logo" class="product" draggable="false">
+            </div>
+            <div class="box">
+                <h2 class="name" id="CSS">CSS</h2>
+                <a href="#CSS" class="buy modal-btn" id="css-modal">Learn more</a>
+                <div class="circle"></div>
+                <img src="css.png" alt="CSS logo" class="product" draggable="false">
+            </div>
+            <div class="box">
+                <h2 class="name" id="javascript">JavaScript</h2>
+                <a href="#javascript" class="buy modal-btn" id="javascript-modal">Learn more</a>
+                <div class="circle"></div>
+                <img src="javascript.png" alt="JavaScript logo" class="product" draggable="false">
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal-overlay">
+        <div class="modal-container">
+            <h3 class="modal-content">Modal Content</h3>
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+  
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+
+    
+
+    <section class="cardscontact" id="contact">
+        <h2 class="title">For personal contact</h2>
+        <div class="cards-wrapper">
+            <div class="card">
+                <div class="new-class">
+                    <div class="content">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <br>
+                        <p>to contact me</p>
+                        <a href="tel:+962788478616">Click here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="new-class">
+                    <div class="content">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <br>
+                        <p>to contact me</p>
+                        <a href="mailto:mohammadashraf123496@gmail.com">Click here</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+
+
+
+
+
+
+   
+
+
+    </section>
+    <footer class="footer">
+        <p class="footer-title">Design By : <span>Mohammad Ashraf Thaher</span></p>
+        <div class="social-icons">
+            <a href="https://wa.me/962788478616" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://web.facebook.com/hadi.thaher.33/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/mohammad_ashraf3111/" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/MohammadAshraf2003" target="_blank"><i class='fab fa-github'></i></a>
+        </div>
+    </footer>
+
+    <a href="#top" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script src="main.js"></script>
+</body>
+<script src="vanilla-tilt.min.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+</script>
+</html>
