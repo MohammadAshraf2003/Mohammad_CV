@@ -741,7 +741,7 @@ table {
 
 @media (max-width: 991px) {
   header {
-  
+      flex-direction: column;
     text-align: center;
   }
 
@@ -752,7 +752,7 @@ table {
   }
 
   .main {
-    flex-direction: column;
+   
     padding: 60px 20px;
     text-align: center;
   }
