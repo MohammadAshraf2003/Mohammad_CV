@@ -738,11 +738,11 @@ table {
     }
 
 
-
 @media (max-width: 991px) {
   header {
-         flex-direction: column;
+    flex-direction: column;
     text-align: center;
+    padding: 20px;
   }
 
   nav {
@@ -752,18 +752,37 @@ table {
   }
 
   .main {
-   
+    flex-direction: column;
     padding: 60px 20px;
     text-align: center;
+    background-position: center top;
+  }
+
+  .main h2 {
+    font-size: 1.2em;
+    color: #fff;
   }
 
   .main h2 span {
-    font-size: 2.5em;
+    font-size: 2em;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .main .information {
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 10px;
   }
 
   .btn {
     width: 80%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    padding: 12px;
+    margin: 20px auto;
   }
 
   section {
@@ -789,6 +808,7 @@ table {
     flex-direction: column;
     text-align: center;
     gap: 10px;
+    padding: 1.5em;
   }
 
   .cards-wrapper {
@@ -801,10 +821,18 @@ table {
   }
 }
 
-
 @media (max-width: 480px) {
+  .main h2 {
+    font-size: 1em;
+  }
+
   .main h2 span {
-    font-size: 2em;
+    font-size: 1.5em;
+  }
+
+  .main .information {
+    font-size: 14px;
+    padding: 12px;
   }
 
   .btn {
@@ -813,7 +841,7 @@ table {
   }
 
   .title {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   .modal-container {
@@ -822,5 +850,14 @@ table {
 
   .footer {
     font-size: 0.9em;
+  }
+
+  .social-icons a {
+    font-size: 1.3em;
+    padding: 10px;
+  }
+
+  .cards-wrapper .card {
+    margin: 15px auto;
   }
 }
